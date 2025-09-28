@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMBRACE - FELTWELL</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/vhe2uwh.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent" id="image-container">
+        <a href="https://linktr.ee/feltwell" target="_blank"
+          ><img
+            src="./img/embrace_link_to.png"
+            alt="album link to stream"
+            class="under-video"
+          />
+        </a>
+        <p>link 2 EMBRACE - EP on streaming</p>
+      </div>
+
+      <div class="parent" id="video-container" style="cursor: pointer">
+        <video
+          id="teaser-video"
+          src="./vid/xihuitl_promo.webm"
+          width="640"
+          loop
+          muted
+          playsinline
+          poster="./img/license_plate.png"
+        >
+          <source src="./vid/sxihuitl_promo.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+        <p>"EMBRACE"</p>
+      </div>
+
+      <div class="parent" id="image-container">
+        <a href="https://ninaprotocol.com" target="_blank"
+          ><img
+            src="./img/embrace_link_to2.png"
+            alt="album link to stream"
+            class="under-video"
+        /></a>
+        <p>link 2 EMBRACE - EP on ninaprotocol</p>
+      </div>
+
+      <div class="parent">
+        <footer>
+          <!-- Left-aligned social tags -->
+          <div class="footer-box-left">
+            <a href="https://www.instagram.com/luisvercetti/" target="_blank"
+              ><img src="./img/favicon.png" alt="FELTWELL IG"
+            /></a>
+          </div>
+
+          <!-- Right-aligned social tags -->
+          <div class="footer-box-right">
+            <a href="https://www.instagram.com/solfoolrecords/" target="_blank"
+              ><img src="./img/favicon-96x96-w.png" alt="SOLFOOL IG"
+            /></a>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const video = document.getElementById("teaser-video");
+        const container = document.getElementById("video-container");
+
+        container.addEventListener("click", () => {
+          if (video.paused) {
+            video.muted = false; // unmute on first click
+            video.play().catch((err) => console.log("Play blocked:", err));
+          } else {
+            video.pause();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

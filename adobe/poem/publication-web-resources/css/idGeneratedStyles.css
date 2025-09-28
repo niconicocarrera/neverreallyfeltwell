@@ -1,0 +1,92 @@
+@font-face {
+	font-family:Courier;
+	font-style:normal;
+	font-weight:normal;
+	src : url("../../font/Courier.ttc");
+}
+@font-face {
+	font-family:"Minion Pro";
+	font-style:normal;
+	font-weight:normal;
+	src : url("../../font/MinionPro-Regular.otf");
+}
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, figure {
+	margin:0;
+	padding:0;
+	border-width:0;
+	text-rendering:optimizeSpeed;
+}
+div > svg {
+	position:absolute;
+}
+p.ParaOverride-1 {
+	line-height:1;
+	white-space:nowrap;
+}
+span.CharOverride-1 {
+	color:#000000;
+	font-family:Courier, serif;
+	font-size:280px;
+	font-style:normal;
+	font-weight:normal;
+}
+#_idContainer000 {
+	-ms-transform:translate(36.000px,30.303px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(36.000px,30.303px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:241.38px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(36.000px,30.303px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(36.000px,30.303px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:325.44px;
+}
+#_idContainer001 {
+	-ms-transform:translate(321.120px,334.143px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(321.120px,334.143px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:56.58px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(321.120px,334.143px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(321.120px,334.143px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:254.88px;
+}
+#_idContainer002 {
+	-ms-transform:translate(36.000px,419.615px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(36.000px,419.615px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:343.11px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(36.000px,419.615px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(36.000px,419.615px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:270.00px;
+}
+#_idContainer003 {
+	-ms-transform:translate(425.999px,739.749px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(425.999px,739.749px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:22.98px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(425.999px,739.749px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(425.999px,739.749px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:150.00px;
+}
