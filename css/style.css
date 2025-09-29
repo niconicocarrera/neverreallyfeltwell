@@ -28,27 +28,27 @@ p {
   video {
     width: 100%;       /* video fills mobile screen width */
     max-width: 100%;   /* no overflow */
-    padding: 50px 0px 50px 0px;
+    padding: 50px 10px 0px 10px;
   }
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0px 75px 0px 75px;        /* breathing room above & below */
-    margin-top: 50px;
+    padding: 0px 75px 0px 75px; /* breathing room left & right */
+    margin-top: 50px; /* breathing room above */
 }
 
 #video-container {
   cursor: pointer;
   display: inline-block;
   /* padding: 100px 0px 100px 0px ; */
-
   /* padding: 180px 0px 200px 0px; breathing room above & below */
 }
 
 #image-container {
   display: inline-block;
+  padding-top: 50px;
 }
 
   img.under-video {
@@ -66,7 +66,7 @@ p {
 
     footer {
       color: #fff;
-      padding: 40px 40px;
+      padding: 60px 40px;
       display: flex;
       justify-content:space-around;
       align-items: center;
