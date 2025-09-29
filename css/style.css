@@ -22,13 +22,25 @@ p {
 
 @media (max-width: 600px) {
   .parent {
-    /* margin-top: 100px; */
+    flex-direction: column;
+    align-items: center; /* keeps content centered horizontally */
+    padding: 10px;       /* adds 10px padding all around */
+    box-sizing: border-box;
   }
 
-  video {
-    width: 100%;       /* video fills mobile screen width */
-    max-width: 100%;   /* no overflow */
-    padding: 50px 10px 0px 10px;
+  video,
+  img.under-video {
+    width: 100%;         /* fill container width */
+    max-width: 100%;     /* no overflow */
+    height: auto;        /* maintain aspect ratio */
+    display: block;
+    margin: 0 auto;      /* center horizontally if smaller than container */
+    padding: 0;          /* remove any extra padding */
+  }
+
+  .container {
+    padding: 0 10px;     /* 10px padding on left and right */
+    margin-top: 20px;    /* optional top spacing */
   }
 }
 
