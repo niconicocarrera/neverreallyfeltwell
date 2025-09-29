@@ -21,10 +21,15 @@ p {
 }
 
 @media (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
   .parent {
     flex-direction: column;
     align-items: center; /* keeps content centered horizontally */
-    padding: 10px;       /* adds 10px padding all around */
+    width: 100%;        /* full width on small screens */
+    padding: 0 10px;       /* adds 10px padding all around */
     box-sizing: border-box;
   }
 
@@ -39,22 +44,24 @@ p {
   }
 
   .container {
-    padding: 0 10px;     /* 10px padding on left and right */
+    width: 100%;         /* full width on small screens */
     margin-top: 20px;    /* optional top spacing */
+    padding: 0 10px;     /* adds 10px padding all around */
+    box-sizing: border-box;
   }
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0px 75px 0px 75px; /* breathing room left & right */
+    /* padding: 0px 75px 0px 75px; breathing room left & right */
     margin-top: 50px; /* breathing room above */
 }
 
 #video-container {
   cursor: pointer;
   display: inline-block;
-  /* padding: 100px 0px 100px 0px ; */
+  padding: 100px 0px 100px 0px ;
   /* padding: 180px 0px 200px 0px; breathing room above & below */
 }
 
