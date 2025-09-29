@@ -1,12 +1,4 @@
 {
   "name": "neverreallyfeltwell",
-  "type": "static",
-  "account_id": "<YOUR_ACCOUNT_ID>",
-  "workers_dev": true,
-  "compatibility_date": "2025-09-29",
-  "site": {
-    "bucket": "./",         // or "./dist"
-    "entry-point": "./"
-  },
-  "pages_build_output_dir": "." // <- add this
+  "pages_build_output_dir": "."
 }
